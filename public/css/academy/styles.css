@@ -1,0 +1,1041 @@
+.adpia_academy .wrapper {
+	width: 100%;
+	background: #00f;
+	display: flex;
+}
+.adpia_academy .row-top-rank td span {
+	line-height: unset;
+}
+.adpia_academy .grid-container {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	background-color: transparent;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.adpia_academy .grid-item {
+	background-color: transparent;
+	padding: 10px;
+	text-align: center;
+}
+.adpia_academy .grid-item:nth-child(5) {
+	grid-column-start: 1;
+}
+/*------------*/
+/*-- grid 1 --*/
+/*------------*/
+.adpia_academy .list-ranking {
+	display: flex;
+	/*padding: 10px 20px 0 20px;*/
+	align-items: center;
+}
+.adpia_academy .rank-item {
+	width: 20%;	
+	margin: 10px;
+}
+.adpia_academy .rank-icon img {
+	width: 75%;
+}
+.adpia_academy .rank-point {
+	margin-top: 10px;
+}
+.adpia_academy .rank-point span {
+	font-size: 14px;
+	color: #fff;
+}
+.adpia_academy .rank-name span {
+	font-size: 14px;
+	color: rgb(5, 10, 46);
+	vertical-align: top;
+}
+.adpia_academy .rank-item.active .rank-name span {
+	color: rgb(246, 148, 21);
+}
+/*------------*/
+/*-- grid 2 --*/
+/*------------*/
+.adpia_academy .slide-smaller {
+	position: relative;
+}
+.adpia_academy .slide-smaller .owl-stage-outer::after {
+	width: 1px;
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: rgb(39, 44, 95);
+}
+.adpia_academy .free-lession-video .owl-stage-outer::after {
+	content: " ";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: rgb(39, 44, 95);
+}
+.adpia_academy .slide-smaller img {
+	width: 100%;
+}
+.adpia_academy .owl-dots {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.adpia_academy .owl-theme .owl-dots .owl-dot.active span, .adpia_academy .owl-theme .owl-dots .owl-dot:hover span {
+	background: rgb(9, 15, 66);
+}
+.adpia_academy .owl-theme .owl-dots .owl-dot span {
+	margin: 5px 5px;
+}
+.adpia_academy .owl-theme .owl-nav.disabled+.owl-dots {
+	margin-left: 10px;
+}
+/*------------*/
+/*-- grid 3 --*/
+/*------------*/
+.adpia_academy .main-grid {
+	background-color: rgb(9, 15, 66);
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: unset;
+}
+.adpia_academy .content-ranking {
+	width: 100%;
+	/*background-image: url("bg.png");*/
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.adpia_academy .row-info-content {
+	display: flex;
+	padding: 40px 130px;
+}
+.adpia_academy .row-info-left {
+	width: 55%;
+}
+.adpia_academy .row-info-right {
+	width: 45%;
+}
+.adpia_academy .info-user-name span {
+	color: rgb(246, 148, 21);
+	font-size: 30px;
+}
+.adpia_academy .info-user-commission {
+	color: rgb(139, 138, 143);
+	font-size: 16px;
+	margin-top: 10px;
+}
+.adpia_academy .info-user-point {
+	color: rgb(28, 101, 205);
+	font-size: 24px;
+	margin: 10px 0;
+}
+.adpia_academy .info-user-helper {
+	margin-top: 30px;
+}
+.adpia_academy .btn-ql {
+	background-image: linear-gradient(rgba(246, 148 ,21, 1) 50%, rgba(246, 148 ,21, 0.9) 25%, rgba(246, 148 ,21, 0.6));
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 45%;
+	height: 31px;
+	color: #000;
+	font-size: 10px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	border-radius: 20px;
+}
+.adpia_academy .btn-ql:hover {
+	background-image: linear-gradient(rgba(246, 148 ,21, 1) 50%, rgba(246, 148 ,21, 0.9) 25%, rgba(246, 148 ,21, 0.4));
+	filter: brightness(1) !important;
+}
+
+.adpia_academy .btn-nth {
+	background-image: linear-gradient(rgba(24, 44, 120, 1), rgba(24, 44, 120, 0.9) 50%, rgba(24, 44, 120, 0.6));
+	border-radius: 20px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 45%;
+	height: 31px;
+	color: #fff;
+	font-size: 10px;
+	border: none;
+	cursor: pointer;ss
+	outline: none;
+}
+.adpia_academy .btn-nth:hover {
+	background-image: linear-gradient(rgba(24, 44, 120, 1), rgba(24, 44, 120, 0.9) 50%, rgba(24, 44, 120, 0.4));
+	filter: brightness(1) !important;s
+}
+.adpia_academy .info-user-to-grow-up {
+	color: rgb(121, 121, 121);
+	font-size: 14px;
+	margin-top: 20px;
+}
+.adpia_academy .point-to-grow-up {
+	color: #fff;
+	font-size: 16px;
+}
+.adpia_academy .row-user-range {
+	height: 50px;
+	display: flex;
+	margin: 0 80px;
+	padding-top: 15px;
+}
+.adpia_academy .text-now-rank, .adpia_academy .text-next-rank {
+	width: 200px;
+	font-size: 12px;
+}
+.adpia_academy .user-range-bar {
+	width: 100%;
+	display: flex;
+}
+.adpia_academy .text-now-rank span, .adpia_academy .text-next-rank span {
+	color: #fff;
+	vertical-align: middle;
+	font-size: 12px;
+}
+.adpia_academy .begin-point span, .adpia_academy .end-point span {
+	width: 50px;
+	color: #fff;
+	background: rgb(246, 148 ,21);
+	height: 25px;
+	border-radius: 5px;
+	font-size: 12px;
+	display: block;
+	line-height: 25px;
+}
+.adpia_academy .point-bar {
+	width: 100%;
+	position: relative;
+}
+.adpia_academy .point-line {
+	height: 3px;
+	width: auto;
+	background: rgb(38, 54, 185);
+	margin: 10px;
+}
+.adpia_academy .point-flag {
+	width: auto;
+	position: absolute;
+	top: -15px;
+	left: 0;
+	text-align: -webkit-center;
+}
+.adpia_academy .flag-point span {
+	font-size: 12px;
+	color: #fff;
+	vertical-align: top;
+}
+.adpia_academy .flag-shine {
+	background: #fff;
+	width: 5px;
+	box-shadow: 0 -2px 10px 6px #fff;
+	margin: 8px 0 15px 0;
+	animation-name: changeShadow;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes changeShadow {
+	0%{box-shadow: 0 -2px 10px 6px #fff;}
+	50%{box-shadow: 0 -2px 10px 3px #fff;}
+	100%{box-shadow: 0 -2px 10px 6px #fff;}
+}
+/*------------*/
+/*-- grid 4 --*/
+/*------------*/
+.adpia_academy .table-top-rank tr:nth-child(1) td:nth-child(1), .adpia_academy .table-top-rank tr:nth-child(2) td:nth-child(1) {
+	width: 50%;
+}
+.adpia_academy .table-top-rank tr:nth-child(1) td{
+	background: rgb(9, 15, 66);
+}
+.adpia_academy .table-top-rank tr:nth-child(2) td {
+	height: 70px;
+	background: rgb(9, 15, 66);
+}
+.adpia_academy .user-rank-name, .adpia_academy .user-rank-icon {
+	text-align: left;
+	padding-left: 20px;
+}
+.adpia_academy .user-rank-name span {
+	color: #fff;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.adpia_academy .flag-rank {
+	width: 100px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-31%);
+}
+.adpia_academy .bottom-light-rank {
+	position: absolute;
+	bottom: 0;
+	right: 0;	
+	width: 100%;
+}
+.adpia_academy .row-top-rank {
+	background-image: url("../../images/academy/anhsang_rank.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.adpia_academy .row-top-rank.row-sl {
+	background-color: rgb(36, 42, 102);
+}
+.adpia_academy .row-top-rank.row-sl:hover, .adpia_academy .row-top-rank.row-sc:hover {
+	background-color: rgb(246, 148, 21);
+}
+.adpia_academy .row-top-rank.row-sl:hover td:nth-child(1) span, .adpia_academy .row-top-rank.row-sl:hover td:nth-child(2) span, .adpia_academy .row-top-rank.row-sc:hover td:nth-child(1) span, .adpia_academy .row-top-rank.row-sc:hover td:nth-child(2) span {
+	color: #000;
+}
+.adpia_academy .row-top-rank.row-sc {
+	background-color: rgb(30, 36, 86);
+}
+.adpia_academy .row-top-rank td:nth-child(1) {
+	width: 10px;
+}
+.adpia_academy .row-top-rank td:nth-child(1) span, .adpia_academy .row-top-rank td:nth-child(2) span {
+	color: #fff;
+	font-size: 12px;
+}
+.adpia_academy .row-top-rank td:nth-child(2), .adpia_academy .row-top-rank td:nth-child(3) {
+	text-align: left;
+	padding-left: 5px;
+}
+.adpia_academy .row-top-rank td:nth-child(3) span {
+	background: rgb(12, 18, 69);
+	border-radius: 15px;
+	font-size: 12px;
+	color: #fff;
+	font-weight: bold;
+	box-shadow: 0 -2px 0px 0px #000;
+	padding: 2px 30px;
+	display: block;
+	width: 100px;
+	text-align: center;
+}
+.adpia_academy .point-top-3-ranking {
+	position: relative;
+}
+.adpia_academy .point-top-3-ranking span {
+	color: rgb(180, 105, 43) !important;
+}
+.adpia_academy .point-top-3-ranking img {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+.adpia_academy .top-ranking {
+	box-shadow: 0 19px 58px rgba(0,0,0,0.1), 0 15px 52px rgba(0,0,0,0.1);
+}	
+.adpia_academy .row-ql-ranking.sl, .adpia_academy .row-ql-ranking.sc, .adpia_academy .row-nth-ranking.sl, .adpia_academy .row-nth-ranking.sc {
+	height: 40px;
+	color: rgb(172, 174, 197);
+	text-align: center;
+	font-size: 13px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
+}
+.adpia_academy .row-ql-ranking:nth-child(1) td:nth-child(1), .adpia_academy .row-nth-ranking:nth-child(1) td:nth-child(1) {
+	color: orange;
+	font-weight: 600;
+	font-size: 16px;
+}
+.adpia_academy .row-nth-ranking.bottom-header {
+	font-weight: 600 !important;
+	font-size: 14px !important;
+}
+.adpia_academy .row-nth-ranking.bottom-header td:nth-child(1) {
+	color: aqua;
+}
+.adpia_academy .row-ql-ranking.sl, .adpia_academy .row-nth-ranking.sl {
+	background-color: rgb(7, 26, 85);
+}
+.adpia_academy .row-ql-ranking.sc, .adpia_academy .row-nth-ranking.sc {
+	background-color: rgb(7, 26, 85);
+}
+.adpia_academy .row-ql-ranking.header, .adpia_academy .row-nth-ranking.header {
+	/*background: linear-gradient(rgb(39, 44, 95), rgb(73, 45, 120));*/
+}
+.adpia_academy .row-ql-ranking td:nth-child(1) {
+	width: 40%;
+	text-align: left;
+	padding-left: 30px;
+	min-width: 160px;
+}
+.adpia_academy .row-nth-ranking td:nth-child(1) {
+	width: 64%;
+	text-align: left;
+	padding-left: 30px;
+	min-width: 320px;
+}
+.adpia_academy .row-ql-ranking td, .adpia_academy .row-nth-ranking td {
+	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.adpia_academy .row-ql-ranking td:nth-child(1), .adpia_academy .row-nth-ranking td:nth-child(1) {
+	border-left: none;
+}
+.adpia_academy .row-ql-ranking td:nth-child(2), .adpia_academy .row-ql-ranking td:nth-child(3), .adpia_academy .row-ql-ranking td:nth-child(4), .adpia_academy .row-ql-ranking td:nth-child(5), .adpia_academy .row-ql-ranking td:nth-child(6), .adpia_academy .row-ql-ranking td:nth-child(7) {
+	width: 10%;
+	min-width: 80px;
+}
+.adpia_academy .row-nth-ranking td:nth-child(2), .adpia_academy .row-nth-ranking td:nth-child(3), .adpia_academy .row-nth-ranking td:nth-child(4)
+{
+	width: 12%;
+	min-width: 75px;
+}
+.adpia_academy .ql-ranking table, .adpia_academy .tbl-lession {
+	border: 1px solid rgb(15, 28, 83);
+	border-left: none;
+	margin-top: 20px;
+}
+.adpia_academy .ql-ranking, .adpia_academy .nth-ranking {
+	margin-top: 0px;
+	margin: 20px 20px 50px 20px;
+}
+.adpia_academy .tbl-tabs {
+	border: 1px solid rgb(15, 28, 83);
+	border-left: none;
+	border-top: none;
+	border-radius: 10px 10px 0px 0px;
+}
+.adpia_academy .tbl-tabs tr {
+	height: 30px;
+}
+.adpia_academy .tbl-tabs tr td:nth-child(1) {
+	width: 70%;
+}
+.adpia_academy .tbl-tabs a {
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 600;
+}
+.adpia_academy .tbl-tabs tr td:nth-child(2), .adpia_academy .tbl-tabs tr td:nth-child(3), .adpia_academy .tbl-tabs tr td:nth-child(4) {
+	width: 10%;
+	background: rgb(7, 26, 85);
+	border-left: 1px solid rgb(15, 28, 83);
+	border-top: 1px solid rgb(15, 28, 83);
+	cursor: pointer;
+	color: rgb(180, 105, 43);
+	border-radius: 10px 10px 0 0;
+}
+.adpia_academy .view-video-lession {
+	cursor: pointer;
+}
+.adpia_academy .view-video-lession:hover {
+	color: rgb(180, 105, 43);
+}
+.adpia_academy .fb-comments-area {
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+.adpia_academy .fb-comments-content {
+	background: #fff;
+	padding: 0 20px;
+}
+.adpia_academy .fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+	max-width: 100% !important;
+	width: 100% !important;
+}
+.adpia_academy .free-100-lession {
+	background: #fff;
+	padding: 20px 0;
+}
+.adpia_academy .free-header {
+	display: block;
+}
+.adpia_academy .left-header {
+	width: 100%;
+	text-align: left;
+	color: rgb(9, 15, 67);
+	font-size: 16px;
+	font-weight: 600;
+}
+.adpia_academy .right-header {
+	width: 100%;
+	text-align: left;
+	color: #f00;
+	font-size: 12px;
+	font-weight: 600;
+	margin-top: 5px;
+}
+.adpia_academy .free-lession-video {
+	position: relative;
+	margin-top: 20px;
+	display: flex;
+	overflow-x: auto;
+}
+.free-lession-video-item {
+	flex: 0 0 calc(100% / 4);
+}
+.adpia_academy .video-content {
+	cursor: pointer;
+	border: 1px solid lavender;
+	position: relative;
+}
+.adpia_academy .video-title {
+	font-size: 12px;
+	margin-top: 10px;
+	color: #000;
+}
+
+.adpia_academy.modal-video {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 50% !important;
+	transform: translateY(-50%);
+	width: 100%;
+	overflow: auto;
+}
+
+.adpia_academy .modal-video-content {
+	margin: auto;
+	min-width: 80%;
+	max-width: 80%;
+	min-height: 400px;
+}
+.adpia_academy .modal-video-content iframe {
+	width: 100%;
+}
+
+.adpia_academy .close-modal-video {
+	color: #fff;
+	float: right;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.adpia_academy .close-modal-video:hover,
+.adpia_academy .close-modal-video:focus {
+	color: #aaaaaa;
+	text-decoration: none;
+	cursor: pointer;
+}
+.adpia_academy .offline-event-box {
+	background-color: #fff;
+	padding: 20px;
+}
+.adpia_academy .offline-event-header {
+	color: #f00;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 600;
+}
+.adpia_academy .offline-event-content {
+	background-color: rgb(244, 242, 243);
+	margin-top: 20px;
+}
+.adpia_academy .offline-event-description {
+	padding: 20px;
+}
+.adpia_academy .offline-event-img {
+	/*width: 50%;*/
+	border: 1px solid #fff;
+}
+.adpia_academy .offline-event-text {
+	width: 50%;
+	margin-left: 10px;
+}
+.adpia_academy .event-main-title {
+	color: rgb(38, 44, 96);
+	font-size: 18px;
+	font-weight: 600;
+}
+.adpia_academy .event-subtitle {
+	color: rgb(165, 165, 165);
+	font-size: 16px;
+}
+.adpia_academy .event-header-text {
+	margin-top: 10px;
+	font-weight: 600;
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+}
+.adpia_academy .event-paragraphs {
+	text-align: left;
+	font-size: 10px;
+	color: rgb(94, 94, 94);
+}
+.adpia_academy .event-view-more {
+	font-size: 12px;
+	color: #000;
+	text-align: right;
+	margin-bottom: 10px;
+	cursor: pointer;
+	padding: 0 20px;
+}
+.adpia_academy .offline-event-line {
+	height: 1px;
+	background-color: rgb(165, 165, 165);
+	margin: 0 20px;
+}
+.adpia_academy .offline-event-bottom-list {
+	padding: 0 20px;
+}
+.adpia_academy .offline-event-bottom-list .slide-box {
+	position: relative;
+	background-color: rgb(244, 242, 243);
+	height: 180px;
+	margin-top: 20px;
+}
+.adpia_academy .offline-event-bottom-list .slide-box .owl-carousel .item {
+	cursor: pointer;
+	border: 1px solid #fff;
+}
+.adpia_academy .offline-event-bottom-list .slide-box .owl-carousel .item .border-img-event-offline-slide {
+	filter: brightness(0.3);
+}
+.adpia_academy .offline-event-bottom-list .slide-box .owl-carousel .item:hover .border-img-event-offline-slide {
+	filter: brightness(1);
+}
+.adpia_academy .offline-event-bottom-list .slide-box .owl-carousel .item.active .border-img-event-offline-slide {
+	filter: brightness(1);
+}
+.adpia_academy .campaign-box {
+	padding: 0 20px;
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+.adpia_academy .campaign-header {
+	color: #f00;
+	text-align: left;
+}
+.adpia_academy .campaign-content {
+	background-color: rgb(244, 242, 243);
+	margin-top: 20px;
+	display: flex;
+	padding: 20px;
+}
+.adpia_academy .campaign-item {
+	width: 25%;
+	cursor: pointer;
+}
+.adpia_academy .campaign-item:nth-child(1), .campaign-item:nth-child(2), .campaign-item:nth-child(3) {
+	margin-right: 30px;
+}
+.adpia_academy .campaign-item .item-title {
+	font-size: 12px;
+	margin-top: 10px;
+	text-align: left;
+}
+.adpia_academy .campaign-item .item-commission {
+	font-size: 12px;
+	margin-top: 10px;
+	text-align: left;
+}
+.adpia_academy .campaign-item .item-commission span {
+	color: #f00;
+}
+.adpia_academy .question-box {		
+	padding: 0 20px 20px 20px;
+}
+.adpia_academy .question-area {
+	padding: 0 20px 20px 20px;
+	background-color: #fff;
+}
+.adpia_academy .question-header {
+	color: rgb(247, 148, 29);
+	text-align: left;
+	padding: 15px 0;
+	font-size: 18px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	background-color: rgb(255, 255, 255);
+}
+.adpia_academy .question-content .collapsible {
+	background-color: #fff;
+	cursor: pointer;
+	padding: 18px 18px 18px 0;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+.adpia_academy .question-content .collapsible i {
+	font-size: 8px;
+	margin-right: 5px;
+}
+
+.adpia_academy .question-content .collapsible:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.adpia_academy .question-content .active:after {
+	content: "\2212";
+}
+
+.adpia_academy .question-content .content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	border-left: 2px solid rgb(220, 220, 220);
+}
+.adpia_academy .question-content .content p {
+	text-align: left;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+/*=======================================*/
+
+.adpia_academy .nth-ranking .tabs{
+	margin-top:50px;
+	font-size:15px;
+	padding:0px;
+	list-style:none;
+	background: rgb(5, 10, 50);
+	box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+	display:inline-block;
+	border-radius:50px;
+	position:relative;
+	min-width: max-content;
+}
+
+.adpia_academy .nth-ranking .tabs a{
+	text-decoration:none;
+	color: #777 !important;
+	text-transform:uppercase;
+	padding:10px 20px;
+	display:inline-block;
+	position:relative;
+	z-index:1;
+	transition-duration:0.6s;
+}
+
+.adpia_academy .nth-ranking .tabs a.active{
+	color:#fff !important;
+}
+
+.adpia_academy .nth-ranking .tabs a i{
+	margin-right:5px;
+}
+
+.adpia_academy .nth-ranking .tabs .selector{
+	height:100%;
+	display:inline-block;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:1;
+	border-radius:50px;
+	transition-duration:0.6s;
+	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	background: #05abe0;
+	background: linear-gradient(180deg, rgb(24, 44, 120) 0%,rgb(38, 55, 204) 100%);
+}
+.adpia_academy .to-grow-up-mobile {
+	display: none;
+}
+.adpia_academy .rank-info-mobile {
+	display: none;
+}
+.adpia_academy .btn-mb-area {
+	display: none;
+}
+.adpia_academy .turn-off-light-vidieo-incentive {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	display: flex;
+}
+.turn-off-light-vidieo-incentive img {
+	width: 100%;
+}
+.adpia_academy .loading-event-offlije-slide {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.offline-event-content-mb {
+	display: none;
+}
+
+@media (max-width: 1400px) {
+	.adpia_academy .row-info-content {
+		padding: 40px 40px;
+	}
+	.adpia_academy #particles-js, .adpia_academy #particles-2-js {
+		display: none;
+	}
+	.adpia_academy .row-user-range {
+		margin: 0 40px;
+	}
+}
+@media (max-width: 1240px) {
+	.adpia_academy .grid-item:nth-child(2) {
+		display: none;
+	}
+	.adpia_academy .grid-item:nth-child(1) {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+	.adpia_academy .user-rank-name span {
+		font-size: 10px;
+	}
+	.adpia_academy .table-top-rank .row-top-rank td:nth-child(1) {
+		width: 10%;
+	}
+	.adpia_academy .table-top-rank .row-top-rank td:nth-child(2) {
+		width: 35%;
+	}
+	.adpia_academy .nth-ranking .tabs a {
+		padding: 10px 15px;
+	}
+	.adpia_academy .offline-event-bottom-list .slide-box {
+		height: 150px;
+	}
+}
+@media (max-width: 1150px) {
+	.adpia_academy .row-info-content {
+		padding: 40px 20px;
+	}
+	.adpia_academy .row-user-range {
+		margin: 0 20px;
+	}
+	.adpia_academy .table-top-rank .row-top-rank td:nth-child(2) {
+		width: 30%;
+	}
+	.adpia_academy .nth-ranking .tabs a {
+		font-size: 10px;
+	}
+	.adpia_academy .nth-ranking .tabs {
+		margin-top: 20px;
+	}
+}
+@media (max-width: 1080px) {
+	.adpia_academy .btn-ql, .adpia_academy .btn-nth {
+		width: 100%;
+	}
+	.adpia_academy .btn-ql {
+		margin-bottom: 10px;
+	}
+	.adpia_academy .info-user-helper {
+		margin-top: 15px;
+	}
+	.adpia_academy .info-user-to-grow-up {
+		margin-top: 15px;
+	}
+	.adpia_academy .row-top-rank td:nth-child(3) span {
+		padding: 2px 22px;
+		width: 90px;
+	}
+	.adpia_academy .top_nav .navbar-right {
+		width: 60%;
+	}
+	.adpia_academy .offline-event-bottom-list .slide-box {
+		height: 120px;
+	}
+	.adpia_academy .profile {
+		margin-top: 0 !important;
+	}
+	.free-lession-video-item {
+		flex: 0 0 calc(100% / 3);
+	}
+}
+@media (max-width: 900px) {
+	.free-lession-video-item {
+		flex: 0 0 calc(100% / 2);
+	}
+}
+@media (max-width: 768px) {
+	.adpia_academy .grid-item:nth-child(2) {
+		display: block;
+		grid-column-start: 1;
+		grid-row-start: 1;
+	}
+	.adpia_academy .grid-item:nth-child(3) {
+		grid-column-start: 1;
+		grid-row-start: 3;
+	}
+	.adpia_academy .grid-item:nth-child(4) {
+		grid-column-start: 1;
+		grid-row-start: 2;
+	}
+	.adpia_academy .grid-container {
+		grid-template-columns: 100%;
+	}
+	.adpia_academy .grid-item:nth-child(1), .adpia_academy .row-user-range, .adpia_academy .grid-item:nth-child(4), .adpia_academy .info-user-helper {
+		display: none;
+	}
+	.adpia_academy .grid-item.main-grid {
+		margin-right: 10px;
+	}
+	.adpia_academy .to-grow-up-mobile {
+		display: block;
+	}
+	.adpia_academy .to-grow-up-mobile span {
+		font-size: 20px;
+	}
+	.adpia_academy .row-info-left .info-user-to-grow-up {
+		display: none;
+	}
+	.adpia_academy .row-info-left .info-user-name span {
+		color: #fff;
+	}
+	.adpia_academy .rank-info-mobile span {
+		color: rgb(241, 213, 120);
+		font-size: 30px;
+	}
+	.adpia_academy .btn-view-all-rank-mb {
+		color: #fff;
+		background-image: linear-gradient(to right, rgba(28, 23, 12, 1), rgba(28, 23, 12, 0.5), rgba(28, 23, 12, 1));
+		border: 1px solid rgb(241, 213, 120);
+		border-radius: 20px;
+		padding: 5px 20px;
+	}
+	.adpia_academy .rank-name-mb {
+		margin-bottom: 15px;
+	}
+	.adpia_academy .view-all-mb-area {
+		margin-bottom: 30px;
+	}
+	.adpia_academy .row-info-content {
+		padding: 40px 20px 0 20px;
+	}
+	.adpia_academy .rank-info-mobile {
+		display: block;
+	}
+	.adpia_academy .btn-mb-area button {
+		filter: brightness(1) !important;
+		border: 1px solid rgb(241, 213, 120);
+	}
+	.adpia_academy .offline-event-bottom-list .slide-box {
+		height: 180px;
+	}
+	.adpia_academy .btn-mb-area {
+		display: block;
+	}
+	.adpia_academy .modal-video-content {
+		min-width: 90%;
+		max-width: 90%;
+		min-height: 200px;
+	}
+}
+@media (max-width: 550px) {
+	.adpia_academy .video-title {
+		font-size: 10px;
+	}
+	.newpub-page-main-content-box {
+		padding-bottom: 0;
+	}
+}
+
+@media (max-width: 414px) {
+	.adpia_academy .btn-view-all-rank-mb {
+		font-size: 10px;
+	}
+	.adpia_academy .to-grow-up-mobile span {
+		font-size: 14px;
+	}
+	.adpia_academy .rank-info-mobile span {
+		font-size: 18px;
+	}
+	.adpia_academy .rank-name-mb {
+		margin-bottom: 5px;
+	}
+	.adpia_academy .info-user-commission {
+		font-size: 14px;
+	}
+	.adpia_academy .grid-container {
+		padding-left: 1px;
+		padding-right: 1px;
+	}
+	.adpia_academy .grid-item.main-grid {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.adpia_academy .info-user-point {
+		font-size: 16px;
+	}
+	.adpia_academy .view-all-mb-area {
+		margin-bottom: 15px;
+	}
+	.adpia_academy .row-info-left .info-user-name span {
+		font-size: 25px;
+	}
+	.adpia_academy .left-header, .adpia_academy .right-header {
+		font-size: 12px;
+	}
+	.adpia_academy .row-ql-ranking td:nth-child(1) {
+		padding-left: 10px;
+	}
+	.adpia_academy .ql-ranking, .adpia_academy .nth-ranking {
+		margin: 0px 10px 20px 10px;
+	}
+	.adpia_academy .nth-ranking {
+		overflow-x: auto;
+	}
+	.adpia_academy .offline-event-bottom-list .slide-box {
+		height: 130px;
+	}
+	.adpia_academy .offline-event-bottom-list, .adpia_academy .offline-event-line {
+		display: none;
+	}
+	.adpia_academy .offline-event-content {
+		background-color: #fff;
+	}
+	.adpia_academy .offline-event-content {
+		margin-top: 0;
+	}
+	.adpia_academy .offline-event-description {
+		padding: 20px 20px 20px 20px;
+	}
+	.adpia_academy .free-100-lession, .adpia_academy .offline-event-box {
+		padding: 20px 10px;
+	}
+	.adpia_academy .offline-event-description {
+		padding: 20px 0px 20px 0px;
+	}
+	.adpia_academy .question-box {
+		padding: 0 10px 20px 10px;
+	}
+	.adpia_academy .fb-comments-area {
+		padding: 0 10px;
+	}
+	.adpia_academy .grid-item:nth-child(4) {
+		display: block;
+	}
+	.adpia_academy .modal-video-content {
+		min-width: 90%;
+		max-width: 90%;
+		min-height: 100px;
+	}
+	.offline-event-content {
+		display: none;
+	}
+	.offline-event-content-mb {
+		margin-top: 10px;
+		display: block;
+	}
+}
+@media (max-width: 375px) {
+	.adpia_academy .top_nav .navbar-right {
+		width: 70%;
+	}
+}

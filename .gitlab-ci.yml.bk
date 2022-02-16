@@ -1,0 +1,50 @@
+image: lorisleiva/laravel-docker:latest
+
+
+
+cache:
+  paths:
+  - vendor/
+
+before_script:
+# Install Oracle Client and build OCI8 (Oracle Command Interface 8 - PHP extension)
+
+  - apk add php7-pear php7-dev gcc musl-dev libnsl libaio
+  - mkdir /opt/oracle
+  - wget -O /opt/oracle/basic.zip https://github.com/pwnlabs/oracle-instantclient/raw/master/instantclient-basic-linux-12.1.0.2.0.zip
+  - wget -O /opt/oracle/sdk.zip https://github.com/pwnlabs/oracle-instantclient/raw/master/instantclient-sdk-linux.x64-12.1.0.2.0.zip
+  - wget -O /opt/oracle/sqlplus.zip https://github.com/pwnlabs/oracle-instantclient/raw/master/instantclient-sqlplus-linux.x64-12.1.0.2.0.zip
+  - cd /opt/oracle
+  - unzip /opt/oracle/basic.zip
+  - unzip /opt/oracle/sdk.zip
+  - unzip /opt/oracle/sqlplus.zip
+## Links are required for older SDKs
+  - cd /opt/oracle/instantclient_12_1
+  - ln -s /opt/oracle/instantclient_12_1/libclntsh.so.* /opt/oracle/instantclient_12_1/libclntsh.so
+  - ln -s /opt/oracle/instantclient_12_1/libocci.so.* /opt/oracle/instantclient_12_1/libocci.so
+  ##- export LD_LIBRARY_PATH=/opt/oracle/instantclient_12_1
+  - export ORACLE_HOME=/opt/oracle/instantclient_12_1
+## Build OCI8 with PECL
+  - echo "instantclient,/opt/oracle/instantclient_12_1" | export PHP_DTRACE=yes | pecl install oci8-2.2.0
+  - echo 'extension=oci8.so' > /etc/php7/conf.d/30-oci8.ini
+  - echo "extension=oci8.so" > /etc/php/7/cli/conf.d/20-oci8.ini
+  - echo "extension=oci8.so" > /etc/php/7/fpm/conf.d/20-oci8.ini
+#  Clean up
+  - apk del php7-pear php7-dev gcc musl-dev
+  - rm -rf /tmp/*.zip /var/cache/apk/* /tmp/pear/
+  
+  - composer install 
+  - php artisan config:cache
+
+  # Run database migrations.
+  - php artisan migrate
+
+  # Run database seed
+  - php artisan db:seed
+variables:
+  TEST: "HELLO WORLD"
+  
+test:
+  script:
+  # run laravel tests
+  - php vendor/bin/phpunit --coverage-text --colors=never 
